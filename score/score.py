@@ -39,13 +39,16 @@ class Score:
         # // record the proportion of colors for each CAM16 hue.
         colorsToProportion = OrderedDict()
         colorsToCam = OrderedDict()
-        hueProportions = [0] * 360
+        hueProportions = [0] * 361
         for (color, population) in colorsToPopulation.items():
             proportion = population / populationSum
             colorsToProportion[color] = proportion
             cam = Cam16.fromInt(color)
             colorsToCam[color] = cam
             hue = round(cam.hue)
+            print(hue)
+            if (hue > len(hueProportions)):
+                print(hue)
             hueProportions[hue] += proportion
         # // Determine the proportion of the colors around each color, by summing the
         # // proportions around each color's hue.
