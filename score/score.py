@@ -46,9 +46,6 @@ class Score:
             cam = Cam16.fromInt(color)
             colorsToCam[color] = cam
             hue = round(cam.hue)
-            print(hue)
-            if (hue > len(hueProportions)):
-                print(hue)
             hueProportions[hue] += proportion
         # // Determine the proportion of the colors around each color, by summing the
         # // proportions around each color's hue.

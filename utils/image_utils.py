@@ -59,8 +59,6 @@ def sourceColorFromImage(image):
 
     # // Convert Pixels to Material Colors
     result = QuantizerCelebi.quantize(pixels, 128)
-    print(result)
     ranked = Score.score(result)
-    print(ranked)
     top = ranked[0]
     return top

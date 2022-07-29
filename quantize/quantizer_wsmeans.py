@@ -38,6 +38,7 @@ class QuantizerWsmeans:
     # Replacing Map() with OrderedDict()
     @staticmethod
     def quantize(inputPixels, startingClusters, maxColors):
+        random.seed(69)
         pixelToCount = OrderedDict()
         points = []
         pixels = []
