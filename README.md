@@ -30,7 +30,7 @@ print(theme)
 Color from image:
 
 ``` python
-from material_color_utilities_python *
+from material_color_utilities_python import *
 
 img = Image.open('path/to/image.png')
 argb = sourceColorFromImage(img)
