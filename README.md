@@ -6,6 +6,15 @@ Original source code: https://github.com/material-foundation/material-color-util
 
 NOTE: This is an **unofficial** port of material-color-utilities from JavaScript to Python
 
+## Build and install
+
+You need to have [Poetry](https://python-poetry.org) installed
+
+```shell
+poetry build
+poetry install
+```
+
 ## Usage examples for Themeing
 
 Theme from color:
