@@ -1,4 +1,4 @@
-from utils.color_utils import *
+from .color_utils import *
 
 # /**
 #  * Utility methods for hexadecimal representations of colors.

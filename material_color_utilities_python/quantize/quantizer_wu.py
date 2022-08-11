@@ -1,4 +1,4 @@
-from utils.color_utils import *
+from ..utils.color_utils import *
 from ..quantize.quantizer_map import *
 
 INDEX_BITS = 5

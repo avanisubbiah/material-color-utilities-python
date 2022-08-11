@@ -1,8 +1,8 @@
-from blend.blend import *
-from palettes.core_palette import *
-from scheme.scheme import *
-from utils.image_utils import *
-from utils.string_utils import *
+from ..blend.blend import *
+from ..palettes.core_palette import *
+from ..scheme.scheme import *
+from .image_utils import *
+from .string_utils import *
 
 # /**
 #  * Generate custom color group from source and target color
