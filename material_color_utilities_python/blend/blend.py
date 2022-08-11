@@ -1,7 +1,7 @@
-from hct.cam16 import *
-from hct.hct import *
-from utils.color_utils import *
-from utils.math_utils import *
+from ..hct.cam16 import *
+from ..hct.hct import *
+from ..utils.color_utils import *
+from ..utils.math_utils import *
 
 # // libmonet is designed to have a consistent API across platforms
 # // and modular components that can be moved around easily. Using a class as a

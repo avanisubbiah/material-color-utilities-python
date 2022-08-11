@@ -1,4 +1,4 @@
-from hct.hct import *
+from ..hct.hct import *
 from collections import OrderedDict
 
 # /**

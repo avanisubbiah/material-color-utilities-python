@@ -1,4 +1,4 @@
-from utils.color_utils import *
+from ..utils.color_utils import *
 from collections import OrderedDict
 
 # /**

@@ -1,4 +1,4 @@
-from utils.color_utils import *
+from ..utils.color_utils import *
 
 # /**
 #  * Provides conversions needed for K-Means quantization. Converting input to

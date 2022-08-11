@@ -1,5 +1,5 @@
 from utils.color_utils import *
-from quantize.quantizer_map import *
+from ..quantize.quantizer_map import *
 
 INDEX_BITS = 5
 SIDE_LENGTH = 33 # ((1 << INDEX_INDEX_BITS) + 1)
