@@ -1,5 +1,7 @@
 # material-color-utilities-python
 
+[![Chat on Matrix](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#AdwCustomizer:matrix.org)
+
 Python port of material-color-utilities used for Material You colors
 
 Original source code: https://github.com/material-foundation/material-color-utilities
