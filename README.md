@@ -45,8 +45,12 @@ Theme from image:
 ``` python
 from material_color_utilities_python import *
 
-img = Image.open('path/to/image.png')
-theme = themeFromImage(img)
+img = Image.open('/path/to/image')
+basewidth = 64
+wpercent = (basewidth/float(img.size[0]))
+hsize = int((float(img.size[1])*float(wpercent)))
+img = img.resize((basewidth,hsize),Image.Resampling.LANCZOS)
+print(themeFromImage(img))
 
 print(theme)
 ```
