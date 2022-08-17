@@ -1,5 +1,5 @@
-from utils.color_utils import *
-from utils.math_utils import *
+from ..utils.color_utils import *
+from ..utils.math_utils import *
 import math
 
 # /**

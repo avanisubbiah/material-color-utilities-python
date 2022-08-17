@@ -1,5 +1,5 @@
-from quantize.quantizer_wsmeans import *
-from quantize.quantizer_wu import *
+from ..quantize.quantizer_wsmeans import *
+from ..quantize.quantizer_wu import *
 
 # /**
 #  * An image quantizer that improves on the quality of a standard K-Means

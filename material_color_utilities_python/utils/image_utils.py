@@ -1,6 +1,6 @@
-from quantize.quantizer_celebi import *
-from score.score import *
-from utils.color_utils import *
+from ..quantize.quantizer_celebi import *
+from ..score.score import *
+from .color_utils import *
 from PIL import Image
 
 # /**

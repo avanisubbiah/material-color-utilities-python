@@ -1,5 +1,5 @@
-from hct.hct import *
-from palettes.tonal_palette import *
+from ..hct.hct import *
+from ..palettes.tonal_palette import *
 
 # /**
 #  * An intermediate concept between the key color for a UI theme, and a full

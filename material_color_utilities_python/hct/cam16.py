@@ -1,6 +1,6 @@
-from utils.color_utils import *
-from utils.math_utils import *
-from hct.viewing_conditions import *
+from ..utils.color_utils import *
+from ..utils.math_utils import *
+from ..hct.viewing_conditions import *
 import math
 
 # /**

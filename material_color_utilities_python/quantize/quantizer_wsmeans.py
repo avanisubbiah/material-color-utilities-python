@@ -1,4 +1,4 @@
-from quantize.lab_point_provider import *
+from ..quantize.lab_point_provider import *
 from collections import OrderedDict
 import random
 import math

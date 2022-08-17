@@ -1,6 +1,6 @@
-from hct.cam16 import *
-from utils.color_utils import *
-from utils.math_utils import *
+from ..hct.cam16 import *
+from ..utils.color_utils import *
+from ..utils.math_utils import *
 from collections import OrderedDict
 
 # /**
