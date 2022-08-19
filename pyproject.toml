@@ -2,8 +2,8 @@
 name = "material-color-utilities-python"
 version = "0.1.0"
 description = "Python port of material-color-utilities used for Material You colors"
-authors = ["Your Name <you@example.com>"]
-license = "GPLv3"
+authors = ["Avanish Subbiah <avanishsubbiah1@gmail.com>", "0xMRTT", "David Lapshin"]
+license = "Apachev2"
 
 [tool.poetry.dependencies]
 python = "^3.10"
