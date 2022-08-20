@@ -8,6 +8,7 @@ license = "Apache 2.0"
 [tool.poetry.dependencies]
 python = "^3.10"
 Pillow = "^9.2.0"
+regex = "*"
 
 [tool.poetry.dev-dependencies]
 
