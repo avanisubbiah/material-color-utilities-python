@@ -6,7 +6,6 @@ authors = ["Avanish Subbiah <avanishsubbiah1@gmail.com>", "0xMRTT", "David Lapsh
 license = "Apache 2.0"
 
 [tool.poetry.dependencies]
-python = "^3.10"
 Pillow = "^9.2.0"
 regex = "*"
 
